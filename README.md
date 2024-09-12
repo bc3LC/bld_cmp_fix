@@ -1,3 +1,3 @@
-# Fit functions for traditinal biomass and coal demand within the rresidential sector
+### Fit functions for traditional biomass and coal demand within the residential sector
 
 To be added
