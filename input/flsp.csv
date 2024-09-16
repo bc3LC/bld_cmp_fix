@@ -1,0 +1,322 @@
+# Values taken from L144.flsp_bm2_R_res_Yh and L144.flsp_bm2_R_comm_Yh,,,,,,
+region,gcam.consumer,nodeInput,building.node.input,year,base.building.size,GCAM_region_ID
+USA,resid,resid,resid_building,1975,10.925895,1
+USA,resid,resid,resid_building,1990,13.889702,1
+USA,resid,resid,resid_building,2005,18.84764,1
+USA,resid,resid,resid_building,2010,17.945438,1
+USA,resid,resid,resid_building,2015,18.404879,1
+Africa_Eastern,resid,resid,resid_building,1975,0.826986,2
+Africa_Eastern,resid,resid,resid_building,1990,1.304452,2
+Africa_Eastern,resid,resid,resid_building,2005,2.025946,2
+Africa_Eastern,resid,resid,resid_building,2010,2.31459,2
+Africa_Eastern,resid,resid,resid_building,2015,2.603234,2
+Africa_Northern,resid,resid,resid_building,1975,0.731948,3
+Africa_Northern,resid,resid,resid_building,1990,1.07154,3
+Africa_Northern,resid,resid,resid_building,2005,1.518619,3
+Africa_Northern,resid,resid,resid_building,2010,2.158964,3
+Africa_Northern,resid,resid,resid_building,2015,2.799309,3
+Africa_Southern,resid,resid,resid_building,1975,0.477402,4
+Africa_Southern,resid,resid,resid_building,1990,0.74507,4
+Africa_Southern,resid,resid,resid_building,2005,1.160348,4
+Africa_Southern,resid,resid,resid_building,2010,1.575903,4
+Africa_Southern,resid,resid,resid_building,2015,1.991458,4
+Africa_Western,resid,resid,resid_building,1975,1.432399,5
+Africa_Western,resid,resid,resid_building,1990,2.146133,5
+Africa_Western,resid,resid,resid_building,2005,3.426194,5
+Africa_Western,resid,resid,resid_building,2010,4.639401,5
+Africa_Western,resid,resid,resid_building,2015,5.852608,5
+Australia_NZ,resid,resid,resid_building,1975,0.593622,6
+Australia_NZ,resid,resid,resid_building,1990,0.816368,6
+Australia_NZ,resid,resid,resid_building,2005,1.124474,6
+Australia_NZ,resid,resid,resid_building,2010,1.136563,6
+Australia_NZ,resid,resid,resid_building,2015,1.148652,6
+Brazil,resid,resid,resid_building,1975,1.659006,7
+Brazil,resid,resid,resid_building,1990,2.363306,7
+Brazil,resid,resid,resid_building,2005,3.390517,7
+Brazil,resid,resid,resid_building,2010,4.261502,7
+Brazil,resid,resid,resid_building,2015,5.132486,7
+Canada,resid,resid,resid_building,1975,0.899311,8
+Canada,resid,resid,resid_building,1990,1.189785,8
+Canada,resid,resid,resid_building,2005,1.523775,8
+Canada,resid,resid,resid_building,2010,1.459211,8
+Canada,resid,resid,resid_building,2015,1.394647,8
+Central America and Caribbean,resid,resid,resid_building,1975,0.703607,9
+Central America and Caribbean,resid,resid,resid_building,1990,0.959674,9
+Central America and Caribbean,resid,resid,resid_building,2005,1.332692,9
+Central America and Caribbean,resid,resid,resid_building,2010,1.398081,9
+Central America and Caribbean,resid,resid,resid_building,2015,1.463469,9
+Central Asia,resid,resid,resid_building,1975,1.282152,10
+Central Asia,resid,resid,resid_building,1990,1.691529,10
+Central Asia,resid,resid,resid_building,2005,1.849501,10
+Central Asia,resid,resid,resid_building,2010,1.783695,10
+Central Asia,resid,resid,resid_building,2015,1.717888,10
+China,resid,resid,resid_building,1975,7.419681,11
+China,resid,resid,resid_building,1990,19.836164,11
+China,resid,resid,resid_building,2005,38.131623,11
+China,resid,resid,resid_building,2010,44.737003,11
+China,resid,resid,resid_building,2015,53.777723,11
+EU-12,resid,resid,resid_building,1975,1.996757,12
+EU-12,resid,resid,resid_building,1990,2.484544,12
+EU-12,resid,resid,resid_building,2005,2.785945,12
+EU-12,resid,resid,resid_building,2010,2.609304,12
+EU-12,resid,resid,resid_building,2015,2.432662,12
+EU-15,resid,resid,resid_building,1975,9.833798,13
+EU-15,resid,resid,resid_building,1990,11.691848,13
+EU-15,resid,resid,resid_building,2005,13.889572,13
+EU-15,resid,resid,resid_building,2010,12.94245,13
+EU-15,resid,resid,resid_building,2015,11.995328,13
+Europe_Eastern,resid,resid,resid_building,1975,1.522218,14
+Europe_Eastern,resid,resid,resid_building,1990,1.624529,14
+Europe_Eastern,resid,resid,resid_building,2005,1.437988,14
+Europe_Eastern,resid,resid,resid_building,2010,1.179587,14
+Europe_Eastern,resid,resid,resid_building,2015,0.921187,14
+Europe_Non_EU,resid,resid,resid_building,1975,1.720456,15
+Europe_Non_EU,resid,resid,resid_building,1990,2.575619,15
+Europe_Non_EU,resid,resid,resid_building,2005,3.236624,15
+Europe_Non_EU,resid,resid,resid_building,2010,2.778273,15
+Europe_Non_EU,resid,resid,resid_building,2015,2.319921,15
+European Free Trade Association,resid,resid,resid_building,1975,0.339627,16
+European Free Trade Association,resid,resid,resid_building,1990,0.438715,16
+European Free Trade Association,resid,resid,resid_building,2005,0.531147,16
+European Free Trade Association,resid,resid,resid_building,2010,0.516936,16
+European Free Trade Association,resid,resid,resid_building,2015,0.502725,16
+India,resid,resid,resid_building,1975,6.179731,17
+India,resid,resid,resid_building,1990,8.826706,17
+India,resid,resid,resid_building,2005,12.156504,17
+India,resid,resid,resid_building,2010,13.148973,17
+India,resid,resid,resid_building,2015,14.141443,17
+Indonesia,resid,resid,resid_building,1975,0.811539,18
+Indonesia,resid,resid,resid_building,1990,1.318865,18
+Indonesia,resid,resid,resid_building,2005,2.085159,18
+Indonesia,resid,resid,resid_building,2010,3.092023,18
+Indonesia,resid,resid,resid_building,2015,4.098887,18
+Japan,resid,resid,resid_building,1975,2.641398,19
+Japan,resid,resid,resid_building,1990,3.374092,19
+Japan,resid,resid,resid_building,2005,4.360934,19
+Japan,resid,resid,resid_building,2010,3.986279,19
+Japan,resid,resid,resid_building,2015,3.611624,19
+Mexico,resid,resid,resid_building,1975,0.922341,20
+Mexico,resid,resid,resid_building,1990,1.331403,20
+Mexico,resid,resid,resid_building,2005,1.911373,20
+Mexico,resid,resid,resid_building,2010,2.333957,20
+Mexico,resid,resid,resid_building,2015,2.756541,20
+Middle East,resid,resid,resid_building,1975,1.635997,21
+Middle East,resid,resid,resid_building,1990,2.462213,21
+Middle East,resid,resid,resid_building,2005,3.861957,21
+Middle East,resid,resid,resid_building,2010,4.661391,21
+Middle East,resid,resid,resid_building,2015,5.460825,21
+Pakistan,resid,resid,resid_building,1975,0.414939,22
+Pakistan,resid,resid,resid_building,1990,0.782594,22
+Pakistan,resid,resid,resid_building,2005,1.362695,22
+Pakistan,resid,resid,resid_building,2010,1.567536,22
+Pakistan,resid,resid,resid_building,2015,1.772377,22
+Russia,resid,resid,resid_building,1975,3.293211,23
+Russia,resid,resid,resid_building,1990,3.632464,23
+Russia,resid,resid,resid_building,2005,3.547769,23
+Russia,resid,resid,resid_building,2010,3.694403,23
+Russia,resid,resid,resid_building,2015,3.841037,23
+South Africa,resid,resid,resid_building,1975,0.327537,24
+South Africa,resid,resid,resid_building,1990,0.478407,24
+South Africa,resid,resid,resid_building,2005,0.666618,24
+South Africa,resid,resid,resid_building,2010,0.925752,24
+South Africa,resid,resid,resid_building,2015,1.184886,24
+South America_Northern,resid,resid,resid_building,1975,0.222057,25
+South America_Northern,resid,resid,resid_building,1990,0.331441,25
+South America_Northern,resid,resid,resid_building,2005,0.504938,25
+South America_Northern,resid,resid,resid_building,2010,0.632215,25
+South America_Northern,resid,resid,resid_building,2015,0.759493,25
+South America_Southern,resid,resid,resid_building,1975,0.675172,26
+South America_Southern,resid,resid,resid_building,1990,0.948075,26
+South America_Southern,resid,resid,resid_building,2005,1.370304,26
+South America_Southern,resid,resid,resid_building,2010,1.635885,26
+South America_Southern,resid,resid,resid_building,2015,1.901465,26
+South Asia,resid,resid,resid_building,1975,0.685692,27
+South Asia,resid,resid,resid_building,1990,1.109171,27
+South Asia,resid,resid,resid_building,2005,1.798222,27
+South Asia,resid,resid,resid_building,2010,2.037574,27
+South Asia,resid,resid,resid_building,2015,2.276926,27
+South Korea,resid,resid,resid_building,1975,0.17722,28
+South Korea,resid,resid,resid_building,1990,0.525123,28
+South Korea,resid,resid,resid_building,2005,1.060803,28
+South Korea,resid,resid,resid_building,2010,1.137768,28
+South Korea,resid,resid,resid_building,2015,1.214734,28
+Southeast Asia,resid,resid,resid_building,1975,2.783184,29
+Southeast Asia,resid,resid,resid_building,1990,4.022168,29
+Southeast Asia,resid,resid,resid_building,2005,5.526233,29
+Southeast Asia,resid,resid,resid_building,2010,6.04038,29
+Southeast Asia,resid,resid,resid_building,2015,6.554526,29
+Taiwan,resid,resid,resid_building,1975,0.102249,30
+Taiwan,resid,resid,resid_building,1990,0.148878,30
+Taiwan,resid,resid,resid_building,2005,0.221413,30
+Taiwan,resid,resid,resid_building,2010,0.376394,30
+Taiwan,resid,resid,resid_building,2015,0.531374,30
+Argentina,resid,resid,resid_building,1975,0.400233,31
+Argentina,resid,resid,resid_building,1990,0.517357,31
+Argentina,resid,resid,resid_building,2005,0.71069,31
+Argentina,resid,resid,resid_building,2010,0.900058,31
+Argentina,resid,resid,resid_building,2015,1.089427,31
+Colombia,resid,resid,resid_building,1975,0.372377,32
+Colombia,resid,resid,resid_building,1990,0.525032,32
+Colombia,resid,resid,resid_building,2005,0.761552,32
+Colombia,resid,resid,resid_building,2010,0.892004,32
+Colombia,resid,resid,resid_building,2015,1.022455,32
+USA,comm,comm,comm_building,1975,4.05079,1
+USA,comm,comm,comm_building,1990,6.125985,1
+USA,comm,comm,comm_building,2005,6.738335,1
+USA,comm,comm,comm_building,2010,7.054055,1
+USA,comm,comm,comm_building,2015,7.31733,1
+Africa_Eastern,comm,comm,comm_building,1975,0.272551,2
+Africa_Eastern,comm,comm,comm_building,1990,0.42963,2
+Africa_Eastern,comm,comm,comm_building,2005,0.668487,2
+Africa_Eastern,comm,comm,comm_building,2010,0.765999,2
+Africa_Eastern,comm,comm,comm_building,2015,0.877679,2
+Africa_Northern,comm,comm,comm_building,1975,0.24123,3
+Africa_Northern,comm,comm,comm_building,1990,0.352919,3
+Africa_Northern,comm,comm,comm_building,2005,0.466415,3
+Africa_Northern,comm,comm,comm_building,2010,0.505186,3
+Africa_Northern,comm,comm,comm_building,2015,0.554876,3
+Africa_Southern,comm,comm,comm_building,1975,0.157338,4
+Africa_Southern,comm,comm,comm_building,1990,0.245394,4
+Africa_Southern,comm,comm,comm_building,2005,0.365103,4
+Africa_Southern,comm,comm,comm_building,2010,0.417732,4
+Africa_Southern,comm,comm,comm_building,2015,0.481341,4
+Africa_Western,comm,comm,comm_building,1975,0.472079,5
+Africa_Western,comm,comm,comm_building,1990,0.706842,5
+Africa_Western,comm,comm,comm_building,2005,1.081392,5
+Africa_Western,comm,comm,comm_building,2010,1.245903,5
+Africa_Western,comm,comm,comm_building,2015,1.434092,5
+Australia_NZ,comm,comm,comm_building,1975,0.238278,6
+Australia_NZ,comm,comm,comm_building,1990,0.31765,6
+Australia_NZ,comm,comm,comm_building,2005,0.443502,6
+Australia_NZ,comm,comm,comm_building,2010,0.483829,6
+Australia_NZ,comm,comm,comm_building,2015,0.520717,6
+Brazil,comm,comm,comm_building,1975,0.778706,7
+Brazil,comm,comm,comm_building,1990,1.10228,7
+Brazil,comm,comm,comm_building,2005,1.489017,7
+Brazil,comm,comm,comm_building,2010,1.565709,7
+Brazil,comm,comm,comm_building,2015,1.635774,7
+Canada,comm,comm,comm_building,1975,0.396384,8
+Canada,comm,comm,comm_building,1990,0.516872,8
+Canada,comm,comm,comm_building,2005,0.649895,8
+Canada,comm,comm,comm_building,2010,0.689967,8
+Canada,comm,comm,comm_building,2015,0.727935,8
+Central America and Caribbean,comm,comm,comm_building,1975,0.330817,9
+Central America and Caribbean,comm,comm,comm_building,1990,0.4476,9
+Central America and Caribbean,comm,comm,comm_building,2005,0.611832,9
+Central America and Caribbean,comm,comm,comm_building,2010,0.652221,9
+Central America and Caribbean,comm,comm,comm_building,2015,0.693426,9
+Central Asia,comm,comm,comm_building,1975,0.394685,10
+Central Asia,comm,comm,comm_building,1990,0.520903,10
+Central Asia,comm,comm,comm_building,2005,0.578197,10
+Central Asia,comm,comm,comm_building,2010,0.61464,10
+Central Asia,comm,comm,comm_building,2015,0.663865,10
+China,comm,comm,comm_building,1975,7.785417,11
+China,comm,comm,comm_building,1990,10.055497,11
+China,comm,comm,comm_building,2005,12.092493,11
+China,comm,comm,comm_building,2010,12.438327,11
+China,comm,comm,comm_building,2015,12.784345,11
+EU-12,comm,comm,comm_building,1975,0.649092,12
+EU-12,comm,comm,comm_building,1990,0.723705,12
+EU-12,comm,comm,comm_building,2005,0.789782,12
+EU-12,comm,comm,comm_building,2010,0.780575,12
+EU-12,comm,comm,comm_building,2015,0.771104,12
+EU-15,comm,comm,comm_building,1975,5.336558,13
+EU-15,comm,comm,comm_building,1990,6.019131,13
+EU-15,comm,comm,comm_building,2005,6.753986,13
+EU-15,comm,comm,comm_building,2010,6.925056,13
+EU-15,comm,comm,comm_building,2015,7.049472,13
+Europe_Eastern,comm,comm,comm_building,1975,0.468225,14
+Europe_Eastern,comm,comm,comm_building,1990,0.49976,14
+Europe_Eastern,comm,comm,comm_building,2005,0.453741,14
+Europe_Eastern,comm,comm,comm_building,2010,0.443909,14
+Europe_Eastern,comm,comm,comm_building,2015,0.437419,14
+Europe_Non_EU,comm,comm,comm_building,1975,0.736768,15
+Europe_Non_EU,comm,comm,comm_building,1990,1.050976,15
+Europe_Non_EU,comm,comm,comm_building,2005,1.357715,15
+Europe_Non_EU,comm,comm,comm_building,2010,1.431657,15
+Europe_Non_EU,comm,comm,comm_building,2015,1.535894,15
+European Free Trade Association,comm,comm,comm_building,1975,0.161417,16
+European Free Trade Association,comm,comm,comm_building,1990,0.184429,16
+European Free Trade Association,comm,comm,comm_building,2005,0.215464,16
+European Free Trade Association,comm,comm,comm_building,2010,0.227713,16
+European Free Trade Association,comm,comm,comm_building,2015,0.241906,16
+India,comm,comm,comm_building,1975,0.106735,17
+India,comm,comm,comm_building,1990,0.217681,17
+India,comm,comm,comm_building,2005,0.757423,17
+India,comm,comm,comm_building,2010,0.814626,17
+India,comm,comm,comm_building,2015,0.864701,17
+Indonesia,comm,comm,comm_building,1975,0.550553,18
+Indonesia,comm,comm,comm_building,1990,0.829837,18
+Indonesia,comm,comm,comm_building,2005,1.131447,18
+Indonesia,comm,comm,comm_building,2010,1.209171,18
+Indonesia,comm,comm,comm_building,2015,1.291916,18
+Japan,comm,comm,comm_building,1975,0.47365,19
+Japan,comm,comm,comm_building,1990,1.457076,19
+Japan,comm,comm,comm_building,2005,1.749591,19
+Japan,comm,comm,comm_building,2010,1.75254,19
+Japan,comm,comm,comm_building,2015,1.744942,19
+Mexico,comm,comm,comm_building,1975,0.43293,20
+Mexico,comm,comm,comm_building,1990,0.620985,20
+Mexico,comm,comm,comm_building,2005,0.848042,20
+Mexico,comm,comm,comm_building,2010,0.912744,20
+Mexico,comm,comm,comm_building,2015,0.974866,20
+Middle East,comm,comm,comm_building,1975,0.803138,21
+Middle East,comm,comm,comm_building,1990,1.27641,21
+Middle East,comm,comm,comm_building,2005,1.906431,21
+Middle East,comm,comm,comm_building,2010,2.167241,21
+Middle East,comm,comm,comm_building,2015,2.401686,21
+Pakistan,comm,comm,comm_building,1975,0.281497,22
+Pakistan,comm,comm,comm_building,1990,0.492412,22
+Pakistan,comm,comm,comm_building,2005,0.80152,22
+Pakistan,comm,comm,comm_building,2010,0.897123,22
+Pakistan,comm,comm,comm_building,2015,0.997135,22
+Russia,comm,comm,comm_building,1975,1.012972,23
+Russia,comm,comm,comm_building,1990,1.117468,23
+Russia,comm,comm,comm_building,2005,1.075526,23
+Russia,comm,comm,comm_building,2010,1.074082,23
+Russia,comm,comm,comm_building,2015,1.085354,23
+South Africa,comm,comm,comm_building,1975,0.045351,24
+South Africa,comm,comm,comm_building,1990,0.066241,24
+South Africa,comm,comm,comm_building,2005,0.086185,24
+South Africa,comm,comm,comm_building,2010,0.092191,24
+South Africa,comm,comm,comm_building,2015,0.099695,24
+South America_Northern,comm,comm,comm_building,1975,0.104229,25
+South America_Northern,comm,comm,comm_building,1990,0.154589,25
+South America_Northern,comm,comm,comm_building,2005,0.223048,25
+South America_Northern,comm,comm,comm_building,2010,0.239612,25
+South America_Northern,comm,comm,comm_building,2015,0.253355,25
+South America_Southern,comm,comm,comm_building,1975,0.316913,26
+South America_Southern,comm,comm,comm_building,1990,0.442196,26
+South America_Southern,comm,comm,comm_building,2005,0.610023,26
+South America_Southern,comm,comm,comm_building,2010,0.646058,26
+South America_Southern,comm,comm,comm_building,2015,0.684981,26
+South Asia,comm,comm,comm_building,1975,0.465177,27
+South Asia,comm,comm,comm_building,1990,0.697896,27
+South Asia,comm,comm,comm_building,2005,1.054738,27
+South Asia,comm,comm,comm_building,2010,1.125436,27
+South Asia,comm,comm,comm_building,2015,1.198879,27
+South Korea,comm,comm,comm_building,1975,0.333635,28
+South Korea,comm,comm,comm_building,1990,0.48923,28
+South Korea,comm,comm,comm_building,2005,0.677551,28
+South Korea,comm,comm,comm_building,2010,0.689301,28
+South Korea,comm,comm,comm_building,2015,0.707074,28
+Southeast Asia,comm,comm,comm_building,1975,1.187213,29
+Southeast Asia,comm,comm,comm_building,1990,1.712316,29
+Southeast Asia,comm,comm,comm_building,2005,2.332998,29
+Southeast Asia,comm,comm,comm_building,2010,2.466035,29
+Southeast Asia,comm,comm,comm_building,2015,2.604776,29
+Taiwan,comm,comm,comm_building,1975,0.069366,30
+Taiwan,comm,comm,comm_building,1990,0.093675,30
+Taiwan,comm,comm,comm_building,2005,0.113529,30
+Taiwan,comm,comm,comm_building,2010,0.115938,30
+Taiwan,comm,comm,comm_building,2015,0.117787,30
+Argentina,comm,comm,comm_building,1975,0.187862,31
+Argentina,comm,comm,comm_building,1990,0.241303,31
+Argentina,comm,comm,comm_building,2005,0.311143,31
+Argentina,comm,comm,comm_building,2010,0.327166,31
+Argentina,comm,comm,comm_building,2015,0.344603,31
+Colombia,comm,comm,comm_building,1975,0.174787,32
+Colombia,comm,comm,comm_building,1990,0.244883,32
+Colombia,comm,comm,comm_building,2005,0.341182,32
+Colombia,comm,comm,comm_building,2010,0.361782,32
+Colombia,comm,comm,comm_building,2015,0.380165,32
