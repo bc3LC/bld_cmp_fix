@@ -69,7 +69,7 @@ ggplot(serv_TradBio, aes(x = pcgdp_thous, y = en_EJ)) +
   geom_point() +
   theme_bw() +
   labs(x = "Per capita GDP (thous$/pers)", y = ("GJ_flsp")) + 
-  geom_point(color='red', data = predicted_serv_TradBio, aes(x = pcgdp_thous, y = en_EJ_pred), linewidth = 1.5) + 
+  geom_point(color='red', data = predicted_serv_TradBio, aes(x = pcgdp_thous, y = en_EJ_pred), pch = 4) + 
   ggtitle("Fitted function for Traditional Biomass demand in the residential sector",
           subtitle = "Service_GJ_flsp ~ x / pcgdp_thous")
 
