@@ -23,7 +23,8 @@ serv_coal <- read.csv("input/serv_coal.csv") %>%
   # Transform to GJ
   mutate(en_GJ = en_EJ * 1E9,
          en_GJ_flsp = en_GJ / flsp) %>%
-  filter(en_EJ > 1E-4)
+  filter(en_EJ > 1E-4,
+         price != 0)
 
 
 serv_TradBio <- read.csv("input/serv_TradBio.csv") %>%
@@ -82,11 +83,12 @@ ggsave("figures/Fit_TradBio.tiff", last_plot(), "tiff")
 
 formula.coal<- "en_GJ_flsp  ~ (A / pcgdp_thous) + (k / price)"
 
+
 # Manual starting values
-start.value.coal <- c(A = 0, k = 0)
+start.value.coal <- c(A = 1, k = 0)
 
 # Use minipack.lm for the estimation (need to check the prediction)
-fit_coal = minpack.lm::nlsLM(formula.coal, serv_coal, start = start.value.coal)
+fit_coal <- minpack.lm::nlsLM(formula.coal, serv_coal, start = start.value.coal)
 
 # Check coefficients
 summary(fit_coal)
@@ -94,19 +96,20 @@ summary(fit_coal)
 # Check R2
 fit_coal_data <- fit_coal$m
 
-Residuals_coal <- fit_coal_data$resid()
-SumResSquared_coal <- sum(Residuals_coal^2)
-TotalSumSquares_coal <- sum((serv_coal$en_GJ_flsp - mean(serv_coal$en_GJ_flsp))^2)
-RSquared_coal <- 1 - (SumResSquared_coal / TotalSumSquares_coal)
-RSquared_coal
+# Residuals_coal <- fit_coal_data$resid()
+# SumResSquared_coal <- sum(Residuals_coal^2)
+# TotalSumSquares_coal <- sum((serv_coal$en_GJ_flsp - mean(serv_coal$en_GJ_flsp))^2)
+# RSquared_coal <- 1 - (SumResSquared_coal / TotalSumSquares_coal)
+# RSquared_coal
 
-A_coal<-coef(fit_coal)
-#k_coal<-coef(fit_coal)[2]
+A_coal<-coef(fit_coal)[1]
+k_coal<-coef(fit_coal)[2]
 
 # Predicted df
 predicted_serv_coal <- serv_coal %>%
-  mutate(A = coef(fit_coal),
-         en_GJ_flsp_pred = A / (pcgdp_thous * price),
+  mutate(A = A_coal,
+         k = k_coal,
+         en_GJ_flsp_pred = (A / pcgdp_thous) + (k /price),
          en_EJ_pred = en_GJ_flsp_pred * flsp / 1E9)
 
 # Plot
@@ -114,9 +117,9 @@ ggplot(serv_coal, aes(x = pcgdp_thous, y = en_EJ)) +
   geom_point() +
   theme_bw() +
   labs(x = "Per capita GDP (thous$/pers)", y = ("GJ_flsp")) + 
-  geom_point(color='red', data = predicted_serv_coal, aes(x = pcgdp_thous, y = en_EJ_pred)) + 
+  geom_point(color='red', data = predicted_serv_coal, aes(x = pcgdp_thous, y = en_EJ_pred), pch = 4) + 
   ggtitle("Fitted function for Coal demand in the residential sector",
           subtitle = "Service_GJ_flsp ~ x / pcgdp_thous")
 
-ggsave("Fit_Coal.tiff", last_plot(), "tiff")
+ggsave("figures/Fit_Coal_GDP.tiff", last_plot(), "tiff")
 
